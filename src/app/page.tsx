@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import TrustedBy from "@/components/TrustedBy";
 import InAction from "@/components/InAction";
 import Benefits from "@/components/Benefits";
 import Marquee from "@/components/Marquee";
@@ -28,7 +27,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <TrustedBy />
+
         <InAction />
         <Benefits />
         <Marquee />
