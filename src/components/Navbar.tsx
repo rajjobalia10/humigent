@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -10,19 +11,8 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-gray-border/30">
       <div className="mx-auto max-w-[1200px] flex items-center justify-between px-5 py-4 max-[809px]:px-5">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="12" r="2.5" fill="#FF5101" />
-            <circle cx="12" cy="4" r="1.5" fill="#FF5101" />
-            <circle cx="12" cy="20" r="1.5" fill="#FF5101" />
-            <circle cx="4" cy="12" r="1.5" fill="#FF5101" />
-            <circle cx="20" cy="12" r="1.5" fill="#FF5101" />
-            <circle cx="6.34" cy="6.34" r="1.5" fill="#FF5101" />
-            <circle cx="17.66" cy="17.66" r="1.5" fill="#FF5101" />
-            <circle cx="6.34" cy="17.66" r="1.5" fill="#FF5101" />
-            <circle cx="17.66" cy="6.34" r="1.5" fill="#FF5101" />
-          </svg>
-          <span className="font-serif text-[18px] text-dark">Humigent</span>
+        <Link href="/" className="flex items-center">
+          <Image src="/images/humigent-logo-dark.png" alt="Humigent" width={140} height={40} className="h-8 w-auto" />
         </Link>
 
         {/* Desktop Nav Links */}

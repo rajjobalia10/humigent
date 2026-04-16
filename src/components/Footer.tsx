@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,19 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-[1.5fr_1fr_1fr_1fr] max-[809px]:grid-cols-1 gap-12 max-[809px]:gap-8">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <circle cx="12" cy="12" r="2.5" fill="#FF5101" />
-                <circle cx="12" cy="4" r="1.5" fill="#FF5101" />
-                <circle cx="12" cy="20" r="1.5" fill="#FF5101" />
-                <circle cx="4" cy="12" r="1.5" fill="#FF5101" />
-                <circle cx="20" cy="12" r="1.5" fill="#FF5101" />
-                <circle cx="6.34" cy="6.34" r="1.5" fill="#FF5101" />
-                <circle cx="17.66" cy="17.66" r="1.5" fill="#FF5101" />
-                <circle cx="6.34" cy="17.66" r="1.5" fill="#FF5101" />
-                <circle cx="17.66" cy="6.34" r="1.5" fill="#FF5101" />
-              </svg>
-              <span className="font-serif text-[18px] text-white">Humigent</span>
+            <Link href="/" className="flex items-center mb-4">
+              <Image src="/images/humigent-logo-light.png" alt="Humigent" width={140} height={40} className="h-8 w-auto" />
             </Link>
             <p className="text-[14px] leading-[1.6] text-gray-light mb-6">
               Multi-agent intelligence for high-stakes decisions.
