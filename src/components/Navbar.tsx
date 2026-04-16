@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -9,7 +10,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-gray-border/30">
       <div className="mx-auto max-w-[1200px] flex items-center justify-between px-5 py-4 max-[809px]:px-5">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <circle cx="12" cy="12" r="2.5" fill="#FF5101" />
             <circle cx="12" cy="4" r="1.5" fill="#FF5101" />
@@ -22,34 +23,31 @@ export default function Navbar() {
             <circle cx="17.66" cy="6.34" r="1.5" fill="#FF5101" />
           </svg>
           <span className="font-serif text-[18px] text-dark">Humigent</span>
-        </a>
+        </Link>
 
         {/* Desktop Nav Links */}
         <div className="hidden min-[810px]:flex items-center gap-8">
-          <a href="#about" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+          <Link href="/about" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
             About
-          </a>
-          <a href="#industries" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+          </Link>
+          <Link href="/products" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
             Industries
-          </a>
-          <a href="#products" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
-            Products
-          </a>
-          <a href="#thought-leadership" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+          </Link>
+          <Link href="/blogs" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
             Thought Leadership
-          </a>
-          <a href="#contact" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+          </Link>
+          <Link href="/contact" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
             Contact Us
-          </a>
+          </Link>
         </div>
 
         {/* CTA Button */}
-        <a
-          href="#demo"
+        <Link
+          href="/contact"
           className="hidden min-[810px]:inline-block bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity"
         >
           Request A Demo
-        </a>
+        </Link>
 
         {/* Mobile Hamburger */}
         <button
@@ -67,12 +65,11 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="min-[810px]:hidden bg-cream border-t border-gray-border/30 px-5 pb-5">
           <div className="flex flex-col gap-4 pt-4">
-            <a href="#about" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>About</a>
-            <a href="#industries" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Industries</a>
-            <a href="#products" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Products</a>
-            <a href="#thought-leadership" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Thought Leadership</a>
-            <a href="#contact" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Contact Us</a>
-            <a href="#demo" className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] text-center" onClick={() => setMobileOpen(false)}>Request A Demo</a>
+            <Link href="/about" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/products" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Industries</Link>
+            <Link href="/blogs" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Thought Leadership</Link>
+            <Link href="/contact" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Contact Us</Link>
+            <Link href="/contact" className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] text-center" onClick={() => setMobileOpen(false)}>Request A Demo</Link>
           </div>
         </div>
       )}
