@@ -31,11 +31,11 @@ export default function Testimonials() {
                   alt="Humigent Vision"
                   width={335}
                   height={377}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover max-[809px]:max-h-[300px]"
                 />
               </div>
               <div className="p-10 max-[809px]:p-6 flex flex-col justify-center">
-                <p className="font-serif text-[20px] leading-[1.5] text-dark mb-8">
+                <p className="font-serif text-[20px] max-[809px]:text-[17px] leading-[1.5] text-dark mb-8">
                   &ldquo;We know data trust is paramount. Our solutions are
                   built with a Humigent Trust Index and full auditability,
                   ensuring that every insight is compliant, transparent and
@@ -56,7 +56,7 @@ export default function Testimonials() {
           {/* Two More Values */}
           <div className="grid grid-cols-2 max-[809px]:grid-cols-1 border-t border-gray-border/40">
             <div className="p-10 max-[809px]:p-6 border-r border-gray-border/40 max-[809px]:border-r-0 max-[809px]:border-b">
-              <p className="font-serif text-[18px] leading-[1.5] text-dark mb-8">
+              <p className="font-serif text-[18px] max-[809px]:text-[16px] leading-[1.5] text-dark mb-8">
                 &ldquo;We are not just a technology company; we are domain
                 experts first. Our solutions are always contextually correct,
                 solving the right problems because they are designed by
@@ -81,7 +81,7 @@ export default function Testimonials() {
               </div>
             </div>
             <div className="p-10 max-[809px]:p-6">
-              <p className="font-serif text-[18px] leading-[1.5] text-dark mb-8">
+              <p className="font-serif text-[18px] max-[809px]:text-[16px] leading-[1.5] text-dark mb-8">
                 &ldquo;We prioritize measurable results over vanity metrics. Our
                 goal is to move beyond descriptive analysis to deliver predictive
                 action, ensuring every resource deployed drives tangible

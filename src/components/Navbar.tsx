@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-gray-border/30">
-      <div className="mx-auto max-w-[1200px] flex items-center justify-between px-5 py-4 max-[809px]:px-5">
+      <div className="mx-auto max-w-[1200px] flex items-center justify-between px-[60px] py-4 max-[809px]:px-5">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image src="/images/humigent-logo-dark.png" alt="Humigent" width={140} height={40} className="h-8 w-auto" />
@@ -41,7 +41,7 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className="min-[810px]:hidden flex flex-col gap-1.5"
+          className="min-[810px]:hidden flex flex-col gap-1.5 p-2 min-w-[44px] min-h-[44px] items-center justify-center"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
@@ -55,10 +55,10 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="min-[810px]:hidden bg-cream border-t border-gray-border/30 px-5 pb-5">
           <div className="flex flex-col gap-4 pt-4">
-            <Link href="/about" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>About</Link>
-            <Link href="/products" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Industries</Link>
-            <Link href="/blogs" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Thought Leadership</Link>
-            <Link href="/contact" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Contact Us</Link>
+            <Link href="/about" className="text-[14px] text-gray-text py-2" onClick={() => setMobileOpen(false)}>About</Link>
+            <Link href="/products" className="text-[14px] text-gray-text py-2" onClick={() => setMobileOpen(false)}>Industries</Link>
+            <Link href="/blogs" className="text-[14px] text-gray-text py-2" onClick={() => setMobileOpen(false)}>Thought Leadership</Link>
+            <Link href="/contact" className="text-[14px] text-gray-text py-2" onClick={() => setMobileOpen(false)}>Contact Us</Link>
             <Link href="/contact" className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] text-center" onClick={() => setMobileOpen(false)}>Request A Demo</Link>
           </div>
         </div>

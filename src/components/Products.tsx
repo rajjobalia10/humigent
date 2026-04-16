@@ -61,7 +61,7 @@ export default function Products() {
           </div>
 
           {/* Content */}
-          <div className="grid grid-cols-[240px_1fr] max-[809px]:grid-cols-1 border-t border-gray-border/40">
+          <div className="grid grid-cols-[240px_1fr] max-[1199px]:grid-cols-[180px_1fr] max-[809px]:grid-cols-1 border-t border-gray-border/40">
             {/* Tabs */}
             <div className="border-r border-gray-border/40 max-[809px]:border-r-0 max-[809px]:border-b p-6 max-[809px]:p-4">
               <div className="flex flex-col max-[809px]:flex-row max-[809px]:overflow-x-auto gap-0">
@@ -82,7 +82,7 @@ export default function Products() {
             </div>
 
             {/* Product Content */}
-            <div className="grid grid-cols-2 max-[809px]:grid-cols-1">
+            <div className="grid grid-cols-2 max-[1199px]:grid-cols-1 max-[809px]:grid-cols-1">
               <div className="p-10 max-[809px]:p-6 flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="w-[10px] h-[10px] bg-primary rounded-sm" />

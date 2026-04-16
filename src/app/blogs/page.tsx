@@ -36,7 +36,7 @@ export default function BlogsPage() {
       <section className="py-6 bg-cream">
         <div className="mx-auto max-w-[1200px] px-[60px] max-[809px]:px-5">
           <div className="border border-gray-border/40 rounded-lg overflow-hidden">
-            <div className="grid grid-cols-3 max-[809px]:grid-cols-1">
+            <div className="grid grid-cols-3 max-[1199px]:grid-cols-2 max-[809px]:grid-cols-1">
               {blogs.map((blog, i) => (
                 <div
                   key={i}

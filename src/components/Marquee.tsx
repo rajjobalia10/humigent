@@ -18,7 +18,7 @@ const row2 = [
 
 function Tag({ text }: { text: string }) {
   return (
-    <span className="inline-block whitespace-nowrap border border-gray-border/60 rounded-[4px] px-4 py-2 text-[14px] text-gray-text mr-3 shrink-0">
+    <span className="inline-block whitespace-nowrap border border-gray-border/60 rounded-[4px] px-4 py-2 text-[14px] max-[809px]:text-[12px] max-[809px]:px-3 max-[809px]:py-1.5 text-gray-text mr-3 shrink-0">
       {text}
     </span>
   );

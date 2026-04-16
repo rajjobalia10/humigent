@@ -52,7 +52,7 @@ export default function PricingPage() {
                     <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
                     <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">Phase {i + 1}</span>
                   </div>
-                  <h3 className="font-serif text-[22px] font-normal leading-[1.1] tracking-[-0.22px] text-dark">{plan.name}</h3>
+                  <h3 className="font-serif text-[22px] font-normal leading-[1.1] tracking-[-0.22px] text-dark max-[809px]:text-[18px]">{plan.name}</h3>
                   <p className="mt-2 text-[14px] leading-[1.6] text-gray-text min-h-[44px]">{plan.desc}</p>
                   <a href="/contact" className={`mt-6 block text-center text-[14px] font-medium px-6 py-3 rounded-[4px] transition-opacity ${plan.featured ? "bg-primary text-white hover:opacity-90" : "bg-white text-dark border border-dark/20 hover:border-dark/40"}`}>
                     Get Started
@@ -81,7 +81,8 @@ export default function PricingPage() {
                 Compare engagement phases
               </h2>
             </div>
-            <div className="border-t border-gray-border/40">
+            <div className="border-t border-gray-border/40 overflow-x-auto">
+              <div className="min-w-[500px]">
               {[
                 { feature: "AI Workshops & Training", p1: true, p2: true, p3: true },
                 { feature: "Quick-win Applications", p1: true, p2: true, p3: true },
@@ -92,12 +93,13 @@ export default function PricingPage() {
                 { feature: "In-house Transition Support", p1: false, p2: false, p3: true },
               ].map((row, i) => (
                 <div key={i} className="grid grid-cols-4 border-b border-gray-border/40 last:border-b-0">
-                  <div className="p-4 text-[14px] text-gray-text">{row.feature}</div>
-                  <div className="p-4 text-center border-l border-gray-border/40">{row.p1 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
-                  <div className="p-4 text-center border-l border-gray-border/40">{row.p2 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
-                  <div className="p-4 text-center border-l border-gray-border/40">{row.p3 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
+                  <div className="p-4 max-[809px]:p-2 text-[14px] max-[809px]:text-[12px] text-gray-text">{row.feature}</div>
+                  <div className="p-4 max-[809px]:p-2 text-center border-l border-gray-border/40">{row.p1 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
+                  <div className="p-4 max-[809px]:p-2 text-center border-l border-gray-border/40">{row.p2 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
+                  <div className="p-4 max-[809px]:p-2 text-center border-l border-gray-border/40">{row.p3 ? <span className="text-primary">&#10003;</span> : <span className="text-gray-light">—</span>}</div>
                 </div>
               ))}
+              </div>
             </div>
           </div>
         </div>

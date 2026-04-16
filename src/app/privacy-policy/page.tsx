@@ -16,35 +16,35 @@ export default function PrivacyPolicyPage() {
 
           <div className="space-y-8 max-w-[800px]">
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">1. Information We Collect</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">1. Information We Collect</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We collect personal information you provide directly, such as your name, email address, company name, and phone number when you fill out forms, request demos, or contact us. We also collect usage data, technical information (IP address, browser type, device information), and cookies to improve our services.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">2. How We Use Your Information</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">2. How We Use Your Information</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We use your information to provide and improve our services, respond to inquiries and support requests, send communications about updates and offerings, analyze usage patterns, and maintain security. We process data based on legitimate business interests and your consent.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">3. Data Retention</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">3. Data Retention</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We retain personal information only for as long as necessary to fulfill the purposes for which it was collected, comply with legal obligations, resolve disputes, and enforce our agreements.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">4. Your Rights</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">4. Your Rights</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">You have the right to access, update, or delete your personal data; opt out of marketing communications; restrict processing; and request data portability. To exercise these rights, contact us at info@humigent.ai.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">5. Cookies and Tracking</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">5. Cookies and Tracking</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We use cookies and similar tracking technologies for personalization and analytics. You can opt out of non-essential cookies through your browser settings. Essential cookies required for site functionality cannot be disabled.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">6. Security</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">6. Security</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We implement appropriate technical and organizational measures to protect your personal information. However, no method of transmission over the Internet is completely secure, and we cannot guarantee absolute security.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">7. Third-Party Links</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">7. Third-Party Links</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">Our website may contain links to third-party sites. We are not responsible for the privacy practices or content of those sites. We encourage you to review their privacy policies.</p>
             </div>
             <div>
-              <h2 className="font-serif text-[22px] text-dark mb-3">8. Policy Updates</h2>
+              <h2 className="font-serif text-[22px] max-[809px]:text-[18px] text-dark mb-3">8. Policy Updates</h2>
               <p className="text-[14px] leading-[1.6] text-gray-text">We may update this Privacy Policy from time to time. Changes will be reflected with a revised effective date. We encourage you to review this policy periodically.</p>
             </div>
             <div className="border-t border-gray-border/40 pt-6">

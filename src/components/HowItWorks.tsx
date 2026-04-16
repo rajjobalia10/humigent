@@ -55,13 +55,13 @@ export default function HowItWorks() {
                 }`}
               >
                 {/* Image */}
-                <div className="bg-card/50 p-6 flex items-center justify-center min-h-[220px] border-b border-gray-border/40">
+                <div className="bg-card/50 p-6 flex items-center justify-center min-h-[220px] max-[809px]:min-h-[160px] border-b border-gray-border/40">
                   <Image
                     src={s.image}
                     alt={s.title}
                     width={400}
                     height={278}
-                    className="w-full max-w-[320px] h-auto"
+                    className="w-full max-w-[320px] max-[809px]:max-w-full h-auto"
                   />
                 </div>
                 {/* Text */}

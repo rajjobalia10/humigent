@@ -92,7 +92,7 @@ export default function FAQ() {
                   </button>
                   <div
                     className={`overflow-hidden transition-all duration-300 ${
-                      open === i ? "max-h-[200px]" : "max-h-0"
+                      open === i ? "max-h-[500px]" : "max-h-0"
                     }`}
                   >
                     <p className="px-6 pb-6 text-[14px] leading-[1.6] text-gray-text">
