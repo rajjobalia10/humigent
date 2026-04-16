@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 export default function Hero() {
   const [show, setShow] = useState(false);
@@ -44,19 +43,6 @@ export default function Hero() {
           >
             Learn More
           </a>
-        </div>
-
-        <div
-          className={`mt-12 max-w-[960px] mx-auto transition-opacity duration-700 delay-700 ${show ? "opacity-100" : "opacity-0"}`}
-        >
-          <Image
-            src="/images/hero-dashboard.png"
-            alt="Humigent AI Platform"
-            width={1160}
-            height={689}
-            className="w-full h-auto rounded-lg shadow-lg"
-            priority
-          />
         </div>
       </div>
     </section>
