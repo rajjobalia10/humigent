@@ -75,7 +75,7 @@ export default function Testimonials() {
                     Domain-First Expertise
                   </p>
                   <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                    CEO
+                    CTO
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Testimonials() {
                     Precision & Impact
                   </p>
                   <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                    CEO
+                    CIO
                   </p>
                 </div>
               </div>
