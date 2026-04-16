@@ -2,21 +2,21 @@ import Image from "next/image";
 
 const steps = [
   {
-    label: "Step-1",
-    title: "Connect your tools",
-    desc: "Link Gmail, Slack, Calendar, Notion, and more in a few clicks.",
+    label: "Phase-1",
+    title: "Education & Alignment",
+    desc: "Foundational AI workshops plus quick-win productivity applications to build organizational readiness.",
     image: "/images/step-1-connect.png",
   },
   {
-    label: "Step-2",
-    title: "Let AI understand the work",
-    desc: "Emails, tasks, and docs are scanned and summarized instantly.",
+    label: "Phase-2",
+    title: "Discovery & Roadmap",
+    desc: "Departmental interviews identifying pain points, aligned to business milestones and a prioritized AI roadmap.",
     image: "/images/step-2-understand.png",
   },
   {
-    label: "Step-3",
-    title: "Get results, automatically",
-    desc: "Summaries, tasks, and scheduling handled in the background — no manual effort.",
+    label: "Phase-3",
+    title: "Deploy & Scale",
+    desc: "Agentic AI implementation with a subscription-based rent-to-own model, transitioning to in-house deployment with ongoing support.",
     image: "/images/step-3-results.png",
   },
 ];
@@ -31,14 +31,15 @@ export default function HowItWorks() {
             <div className="flex items-center gap-2 mb-4">
               <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
               <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                How It Works
+                AI-EaaS Execution Model
               </span>
             </div>
             <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-w-[500px] max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-              Automation in three simple steps
+              From strategy to impact in three phases
             </h2>
             <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[480px]">
-              Humigent makes complex workflows effortless — from start to finish.
+              Humigent&apos;s AI-as-a-Service model ensures seamless adoption,
+              rapid deployment, and measurable outcomes.
             </p>
           </div>
 

@@ -10,27 +10,25 @@ export default function Testimonials() {
             <div className="flex items-center justify-center gap-2 mb-4">
               <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
               <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                Testimonials
+                Our Principles
               </span>
             </div>
             <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-              Trusted by forward-thinking
-              <br />
-              companies
+              The principles that guide us
             </h2>
             <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[480px] mx-auto">
-              Humigent powers modern teams by cutting busywork and automating the
-              essentials.
+              At Humigent, we believe the future of intelligence is Human + AI
+              Agents.
             </p>
           </div>
 
-          {/* Featured Testimonial */}
+          {/* Featured Value */}
           <div className="border-t border-gray-border/40">
             <div className="grid grid-cols-[1fr_1fr] max-[809px]:grid-cols-1">
               <div className="border-r border-gray-border/40 max-[809px]:border-r-0">
                 <Image
                   src="/images/abraham-john.png"
-                  alt="Abraham John"
+                  alt="Humigent Vision"
                   width={335}
                   height={377}
                   className="w-full h-full object-cover"
@@ -38,69 +36,71 @@ export default function Testimonials() {
               </div>
               <div className="p-10 max-[809px]:p-6 flex flex-col justify-center">
                 <p className="font-serif text-[20px] leading-[1.5] text-dark mb-8">
-                  &ldquo;Humigent has completely changed the way we work. Tasks
-                  that used to pile up and slow us down are now handled
-                  automatically. It&apos;s like having an extra team member
-                  working around the clock.&rdquo;
+                  &ldquo;We know data trust is paramount. Our solutions are
+                  built with a Humigent Trust Index and full auditability,
+                  ensuring that every insight is compliant, transparent and
+                  absolutely reliable.&rdquo;
                 </p>
                 <div>
                   <p className="text-[14px] font-medium text-dark">
-                    Abraham John
+                    Trust & Integrity
                   </p>
                   <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                    Product manager, flowops
+                    Core Principle
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Two Smaller Testimonials */}
+          {/* Two More Values */}
           <div className="grid grid-cols-2 max-[809px]:grid-cols-1 border-t border-gray-border/40">
             <div className="p-10 max-[809px]:p-6 border-r border-gray-border/40 max-[809px]:border-r-0 max-[809px]:border-b">
               <p className="font-serif text-[18px] leading-[1.5] text-dark mb-8">
-                &ldquo;The automation feels invisible yet powerful. Humigent
-                quietly keeps everything on track so we can focus on the bigger
-                picture. Our team is already loving it.&rdquo;
+                &ldquo;We are not just a technology company; we are domain
+                experts first. Our solutions are always contextually correct,
+                solving the right problems because they are designed by
+                executives who have sat in your seat.&rdquo;
               </p>
               <div className="flex items-center gap-3">
                 <Image
                   src="/images/trevor-tanor.jpg"
-                  alt="Trevor Tanor"
+                  alt="Domain-First Expertise"
                   width={40}
                   height={40}
                   className="rounded-full object-cover w-10 h-10"
                 />
                 <div>
                   <p className="text-[14px] font-medium text-dark">
-                    Trevor Tanor
+                    Domain-First Expertise
                   </p>
                   <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                    Product Lead, Kloops
+                    Core Principle
                   </p>
                 </div>
               </div>
             </div>
             <div className="p-10 max-[809px]:p-6">
               <p className="font-serif text-[18px] leading-[1.5] text-dark mb-8">
-                &ldquo;We were up and running in days. The simplicity is what
-                sold us, but the results are what keep us here — more
-                productivity, less stress, and happier clients.&rdquo;
+                &ldquo;We prioritize measurable results over vanity metrics. Our
+                goal is to move beyond descriptive analysis to deliver predictive
+                action, ensuring every resource deployed drives tangible
+                commercial impact.&rdquo;
               </p>
               <div className="flex items-center gap-3">
                 <Image
                   src="/images/sarah-mitchell.png"
-                  alt="Sarah Mitchell"
+                  alt="Precision & Impact"
                   width={40}
                   height={40}
                   className="rounded-full object-cover w-10 h-10"
                 />
                 <div>
                   <p className="text-[14px] font-medium text-dark">
-                    Sarah Mitchell
+                    Precision & Impact
                   </p>
                   <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                    CMO, Nexaverser
+                    Core Principle
                   </p>
                 </div>
               </div>

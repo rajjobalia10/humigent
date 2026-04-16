@@ -1,7 +1,7 @@
 const metrics = [
-  { value: "97%", desc: "accuracy in AI-generated summaries" },
-  { value: "200+ hours", desc: "saved per team each month" },
-  { value: "3x faster", desc: "meeting scheduling & follow-ups" },
+  { value: "10x", desc: "faster seismic dataset interpretation for E&P teams" },
+  { value: "4", desc: "industries served with precision AI solutions" },
+  { value: "Zero", desc: "hallucination deterministic reasoning engine" },
 ];
 
 export default function Metrics() {
@@ -14,15 +14,15 @@ export default function Metrics() {
             <div className="flex items-center justify-center gap-2 mb-4">
               <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
               <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                Metrics
+                Impact
               </span>
             </div>
             <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-              Measurable results, every time
+              Measurable results, enterprise-scale
             </h2>
             <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[520px] mx-auto">
-              Humigent isn&apos;t just another tool - it delivers speed, accuracy,
-              and real productivity gains for modern teams.
+              Humigent delivers speed, accuracy, and real impact for
+              organizations that need to act with certainty.
             </p>
           </div>
 

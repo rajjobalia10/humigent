@@ -7,7 +7,6 @@ export default function Hero() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    // Trigger fade-in after mount
     const t = setTimeout(() => setShow(true), 100);
     return () => clearTimeout(t);
   }, []);
@@ -18,32 +17,32 @@ export default function Hero() {
         <h1
           className={`font-serif text-[56px] font-normal leading-[1.1] tracking-[-1.12px] text-dark max-[1199px]:text-[44px] max-[809px]:text-[36px] transition-opacity duration-700 ${show ? "opacity-100" : "opacity-0"}`}
         >
-          AI Agents that automate
+          Multi-Agent Intelligence for
           <br />
-          modern workflows
+          High-Stakes Decisions
         </h1>
 
         <p
-          className={`mt-6 text-[14px] leading-[1.6] text-gray-text max-w-[480px] mx-auto transition-opacity duration-700 delay-300 ${show ? "opacity-100" : "opacity-0"}`}
+          className={`mt-6 text-[14px] leading-[1.6] text-gray-text max-w-[520px] mx-auto transition-opacity duration-700 delay-300 ${show ? "opacity-100" : "opacity-0"}`}
         >
-          Humigent handles tasks like emails, summaries, and scheduling so you
-          don&apos;t have to.
+          Deterministic, domain-trained AI that surfaces issues, explains
+          drivers, and recommends the next best actions.
         </p>
 
         <div
           className={`mt-8 flex items-center justify-center gap-4 max-[809px]:flex-col transition-opacity duration-700 delay-500 ${show ? "opacity-100" : "opacity-0"}`}
         >
           <a
-            href="#"
+            href="#demo"
             className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity"
           >
-            Request a demo
+            Request A Demo
           </a>
           <a
-            href="#"
+            href="#about"
             className="bg-white text-dark text-[14px] font-medium px-6 py-3 rounded-[4px] border border-dark/20 hover:border-dark/40 transition-colors"
           >
-            Start now
+            Learn More
           </a>
         </div>
 
@@ -52,7 +51,7 @@ export default function Hero() {
         >
           <Image
             src="/images/hero-dashboard.png"
-            alt="Humigent Dashboard"
+            alt="Humigent AI Platform"
             width={1160}
             height={689}
             className="w-full h-auto rounded-lg shadow-lg"

@@ -1,19 +1,19 @@
 const row1 = [
-  "Draft client emails",
-  "Summarize meetings",
-  "Schedule calls",
-  "Generate blog posts",
-  "Enrich CRM data",
-  "Translate documents",
+  "Drug Launch Planning",
+  "HCP Engagement",
+  "Dynamic Pricing",
+  "Guest Personalization",
+  "Compliance Retrieval",
+  "Citizen Service Triage",
 ];
 
 const row2 = [
-  "Create reports",
-  "Track deadlines",
-  "Manage tickets",
-  "Research leads",
-  "Assist shoppers",
-  "Automate reminders",
+  "Seismic Interpretation",
+  "Revenue Optimization",
+  "Data Harmonization",
+  "Sentiment Analysis",
+  "Workforce Planning",
+  "Regulatory Extraction",
 ];
 
 function Tag({ text }: { text: string }) {

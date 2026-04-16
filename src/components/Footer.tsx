@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="font-serif text-[18px] text-white">Humigent</span>
             </div>
             <p className="text-[14px] leading-[1.6] text-gray-light mb-6">
-              AI-powered automation for modern teams.
+              Multi-agent intelligence for high-stakes decisions.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-3">
@@ -29,96 +29,86 @@ export default function Footer() {
                 className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-white/40 transition-colors"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" strokeWidth="1.5" />
-                  <circle cx="12" cy="12" r="5" stroke="white" strokeWidth="1.5" />
-                  <circle cx="18" cy="6" r="1" fill="white" />
-                </svg>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-white/40 transition-colors"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-white/40 transition-colors"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M4 4l11.733 16h4.267l-11.733-16zm2.533 1.467l10.8 13.066h-1.867l-10.8-13.066z" stroke="white" strokeWidth="1.2" />
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <rect x="2" y="9" width="4" height="12" stroke="white" strokeWidth="1.5" />
+                  <circle cx="4" cy="4" r="2" stroke="white" strokeWidth="1.5" />
                 </svg>
               </a>
             </div>
           </div>
 
-          {/* Products */}
+          {/* Useful Links */}
           <div>
             <h4 className="text-[14px] font-medium text-white mb-5">
-              Products
+              Useful Links
             </h4>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Automated emails
+                  Our Story
                 </a>
               </li>
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Scheduling
+                  Leadership Team
                 </a>
               </li>
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Task automation
+                  Careers
                 </a>
               </li>
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Smart summaries
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
+                  Request A Demo
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Industry */}
           <div>
             <h4 className="text-[14px] font-medium text-white mb-5">
-              Company
+              Industry
             </h4>
             <ul className="space-y-3">
-<li>
+              <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  About
+                  Life Sciences
                 </a>
               </li>
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Blog
+                  Food and Hospitality
                 </a>
               </li>
               <li>
                 <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Contact
+                  Government
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
+                  Oil & Gas
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Other */}
+          {/* Contact */}
           <div>
-            <h4 className="text-[14px] font-medium text-white mb-5">Other</h4>
+            <h4 className="text-[14px] font-medium text-white mb-5">Contact</h4>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  Privacy policy
-                </a>
+              <li className="text-[14px] text-gray-light">
+                US: 33 S Wood Ave Suite 660, Iselin, NJ 08830
               </li>
-              <li>
-                <a href="#" className="text-[14px] text-gray-light hover:text-white transition-colors">
-                  404
-                </a>
+              <li className="text-[14px] text-gray-light">
+                India: Tower B1, Spaze I-Tech Park, Sector 49, Gurgaon
               </li>
             </ul>
           </div>
@@ -129,14 +119,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-[1200px] px-[60px] max-[809px]:px-5 py-5 flex items-center justify-between max-[809px]:flex-col max-[809px]:gap-3 max-[809px]:text-center">
           <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-            &copy; 2026 Humigent. All rights reserved.
+            Copyright &copy; 2026 Humigent All rights reserved
           </p>
           <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-            Made in Framer
-          </p>
-          <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light flex items-center gap-2">
-            <span className="w-4 h-4 rounded-full bg-gray-light/30 inline-block" />
-            Template by Shubh
+            Privacy Policy
           </p>
         </div>
       </div>

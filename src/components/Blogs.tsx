@@ -2,40 +2,40 @@ import Image from "next/image";
 
 const blogs = [
   {
-    date: "Sep 19, 2025",
-    title: "The road ahead: what's next for Humigent in 2025",
+    date: "2025",
+    title: "Accelerated, De-Risked Drug Launch with Agentic AI",
     excerpt:
-      "A sneak peek into our product roadmap, new features, and how we're building the future of automation together.",
-    author: "Jack Callis",
+      "Agent-based forecast and launch planning with predictive scenario modeling and competitive simulations by autonomously simulating the market ecosystem.",
+    author: "Humigent Team",
     avatar: "/images/jack-callis.jpeg",
     image: "/images/blog-1.png",
-    tags: ["Product", "Company"],
+    tags: ["Life Sciences", "AI"],
   },
   {
-    date: "Sep 4, 2025",
-    title: "Automation myths: what teams get wrong",
+    date: "2025",
+    title: "Dynamic Real-Time Pricing & Revenue Optimization",
     excerpt:
-      "Many teams avoid automation because they assume it's too costly, too complicated, or only for large companies.",
-    author: "Laura Chen",
+      "Autonomous agents analyze real-time market data, competitor activity and inventory levels to optimize pricing for maximum yield in hospitality.",
+    author: "Humigent Team",
     avatar: "/images/laura-chen.jpeg",
     image: "/images/blog-2.png",
-    tags: ["Myths", "Automation"],
+    tags: ["Hospitality", "Pricing"],
   },
   {
-    date: "Aug 17, 2025",
-    title: "How automation improves team collaboration",
+    date: "2025",
+    title: "AI-Powered Governance for Citizen-Centric Services",
     excerpt:
-      "When teams run on disconnected tools, efficiency suffers. Learn how automation bridges gaps and keeps everyone aligned.",
-    author: "Nathan Brooks",
+      "Using Agentic AI and NLP to instantly categorize, prioritize and route citizen communications, resolving common issues autonomously.",
+    author: "Humigent Team",
     avatar: "/images/nathan-brooks.jpeg",
     image: "/images/blog-3.png",
-    tags: ["Collaboration", "Productivity"],
+    tags: ["Government", "NLP"],
   },
 ];
 
 export default function Blogs() {
   return (
-    <section id="blogs" className="py-6 bg-cream">
+    <section id="thought-leadership" className="py-6 bg-cream">
       <div className="mx-auto max-w-[1200px] px-[60px] max-[809px]:px-5">
         <div className="border border-gray-border/40 rounded-lg overflow-hidden">
           {/* Header */}
@@ -44,21 +44,22 @@ export default function Blogs() {
               <div className="flex items-center gap-2 mb-4">
                 <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
                 <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                  Blogs
+                  Thought Leadership
                 </span>
               </div>
               <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-                Expert insights on automations
+                Industry insights & use cases
               </h2>
               <p className="mt-3 text-[14px] leading-[1.6] text-gray-text max-w-[480px]">
-                Explore insights, playbooks, and product updates from Humigent.
+                Explore how Humigent&apos;s Agentic AI solves real-world
+                challenges across industries.
               </p>
             </div>
             <a
               href="#"
               className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity shrink-0"
             >
-              Explore all blogs
+              Explore all insights
             </a>
           </div>
 

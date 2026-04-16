@@ -6,18 +6,18 @@ const benefits = [
         <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" stroke="white" strokeWidth="1.5" />
       </svg>
     ),
-    title: "Autonomous Execution",
-    desc: "Runs without manual input—AI handles workflows end-to-end.",
+    title: "Domain-Trained Agents",
+    desc: "Purpose-engineered AI that understands industry context, nuance, workflows, and compliance.",
   },
   {
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M8 12h8M12 8v8" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-        <path d="M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07" stroke="white" strokeWidth="1.5" strokeLinecap="round" opacity="0.4" />
+        <path d="M9 12l2 2 4-4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="white" strokeWidth="1.5" />
       </svg>
     ),
-    title: "Seamless Integration",
-    desc: "Works with your tools: Slack, Gmail, Calendar, and more.",
+    title: "Deterministic Reasoning",
+    desc: "Zero-hallucination, auditable intelligence with explainable causal chains and consistent outputs.",
   },
   {
     icon: (
@@ -25,8 +25,8 @@ const benefits = [
         <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    title: "Real-Time Insights",
-    desc: "Summaries and updates delivered instantly, no bottlenecks.",
+    title: "Real-World Complexity Ready",
+    desc: "Architected for messy, multi-source data, unstructured signals, and evolving business conditions.",
   },
   {
     icon: (
@@ -34,8 +34,8 @@ const benefits = [
         <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    title: "Scalable Performance",
-    desc: "From small teams to enterprises—built to grow with you.",
+    title: "Connected Decision Intelligence",
+    desc: "AI that links insights, actions, and outcomes\u2014across teams, systems, and time horizons.",
   },
 ];
 
@@ -49,15 +49,16 @@ export default function Benefits() {
             <div className="flex items-center justify-center gap-2 mb-4">
               <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
               <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                Benefits
+                Core Capabilities
               </span>
             </div>
             <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-              Smarter workflows, zero friction
+              Enterprise-grade AI, built for certainty
             </h2>
-            <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[480px] mx-auto mb-10">
-              From automation to insights, everything works seamlessly in the
-              background.
+            <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[520px] mx-auto mb-10">
+              Humigent fuses cognitive architecture, governed reasoning, and
+              enterprise-grade intelligence to help organizations act with
+              certainty when it matters most.
             </p>
           </div>
 

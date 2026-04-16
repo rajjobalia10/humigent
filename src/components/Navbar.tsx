@@ -26,23 +26,29 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <div className="hidden min-[810px]:flex items-center gap-8">
+          <a href="#about" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+            About
+          </a>
+          <a href="#industries" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+            Industries
+          </a>
           <a href="#products" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
             Products
           </a>
-<a href="#blogs" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
-            Blogs
+          <a href="#thought-leadership" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+            Thought Leadership
           </a>
-          <a href="#about" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
-            About
+          <a href="#contact" className="text-[14px] text-gray-text leading-[1.6] hover:text-dark transition-colors">
+            Contact Us
           </a>
         </div>
 
         {/* CTA Button */}
         <a
-          href="#contact"
+          href="#demo"
           className="hidden min-[810px]:inline-block bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity"
         >
-          Contact
+          Request A Demo
         </a>
 
         {/* Mobile Hamburger */}
@@ -61,11 +67,12 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="min-[810px]:hidden bg-cream border-t border-gray-border/30 px-5 pb-5">
           <div className="flex flex-col gap-4 pt-4">
-            <a href="#products" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Products</a>
-
-            <a href="#blogs" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Blogs</a>
             <a href="#about" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>About</a>
-            <a href="#contact" className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] text-center" onClick={() => setMobileOpen(false)}>Contact</a>
+            <a href="#industries" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Industries</a>
+            <a href="#products" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Products</a>
+            <a href="#thought-leadership" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Thought Leadership</a>
+            <a href="#contact" className="text-[14px] text-gray-text" onClick={() => setMobileOpen(false)}>Contact Us</a>
+            <a href="#demo" className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] text-center" onClick={() => setMobileOpen(false)}>Request A Demo</a>
           </div>
         </div>
       )}

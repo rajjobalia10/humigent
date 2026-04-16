@@ -4,32 +4,32 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "What can I automate with Humigent?",
-    a: "Humigent handles repetitive work like emails, scheduling, and meeting summaries, while integrating with your favorite tools.",
+    q: "What industries does Humigent serve?",
+    a: "Humigent serves Life Sciences (Pharma & Biotech), Food and Hospitality, Government, and Oil & Gas with domain-trained AI agents engineered for each industry's specific challenges.",
   },
   {
-    q: "Do I need technical skills to use it?",
-    a: "No. Humigent is built to be simple — just connect your apps and automation starts running in the background.",
+    q: "What makes Humigent different from other AI solutions?",
+    a: "Humigent uses a Deterministic Reasoning Engine with zero-hallucination, auditable intelligence. Unlike generic LLMs, our domain-trained agents deliver explainable causal chains and consistent outputs.",
   },
   {
-    q: "Is my data secure?",
-    a: "Yes. All data is encrypted and processed securely, following industry best practices.",
+    q: "How does the AI-EaaS execution model work?",
+    a: "Our four-phase model includes Education & Alignment, Discovery & Roadmap, Deployment with a rent-to-own subscription model, and Scale & Internalize for transitioning to in-house deployment with ongoing support.",
   },
   {
-    q: "Can I change my plan later?",
-    a: "Of course. You can upgrade, downgrade, or cancel anytime as your needs evolve.",
+    q: "Is my data secure with Humigent?",
+    a: "Yes. Humigent is built with enterprise-scale security, governance, and full auditability. Our solutions include a Trust Index ensuring every insight is compliant, transparent and reliable.",
   },
   {
-    q: "Which tools does Humigent connect with?",
-    a: "Humigent works with Gmail, Google Calendar, Slack, Notion, and many more productivity apps.",
+    q: "What products does Humigent offer for Life Sciences?",
+    a: "For Life Sciences, we offer Insights Navigator, One Customer Universe, MSL Voice, GeoForecast, Data Lens, and Dashboard Lens\u2014all purpose-built for pharma and biotech commercialization.",
   },
   {
-    q: "How quickly can my team get started?",
-    a: "Most teams are up and running in under a day. Humigent is designed to be simple and intuitive, so you can start automating tasks immediately without long onboarding processes.",
+    q: "How quickly can my organization get started?",
+    a: "Our Smart Workbench technology is designed for seamless integration and rapid deployment. Teams can move from strategy to market action in days, not months, starting with our Education & Alignment phase.",
   },
   {
-    q: "What kind of support does Humigent provide?",
-    a: "We provide dedicated email support, detailed documentation, and regular product updates. Every customer also gets access to a free 30-minute onboarding call to help tailor Humigent to your workflows.",
+    q: "Can Humigent integrate with our existing systems?",
+    a: "Yes. Humigent is architected for enterprise-scale deployment that integrates with your existing ecosystem. Our connected decision intelligence works across teams, systems, and time horizons.",
   },
 ];
 
@@ -53,7 +53,8 @@ export default function FAQ() {
                 Frequently asked questions
               </h2>
               <p className="mt-4 text-[14px] leading-[1.6] text-gray-text">
-                Everything you need to know about getting started with Humigent.
+                Everything you need to know about getting started with
+                Humigent&apos;s Agentic AI solutions.
               </p>
             </div>
 

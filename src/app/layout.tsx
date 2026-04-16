@@ -15,7 +15,7 @@ const fragmentMono = Fragment_Mono({
 
 export const metadata: Metadata = {
   title: "Humigent",
-  description: "AI Agents that automate modern workflows",
+  description: "Multi-Agent Intelligence for High-Stakes Decisions",
 };
 
 export default function RootLayout({

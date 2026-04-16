@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function InAction() {
   return (
-    <section className="py-6 bg-cream">
+    <section id="about" className="py-6 bg-cream">
       <div className="mx-auto max-w-[1200px] px-[60px] max-[809px]:px-5">
         {/* Section Card */}
         <div className="border border-gray-border/40 rounded-lg overflow-hidden">
@@ -11,43 +11,42 @@ export default function InAction() {
             <div className="flex items-center gap-2 mb-4">
               <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
               <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                In Action
+                About Humigent
               </span>
             </div>
             <h2 className="font-serif text-[40px] font-normal leading-[1.1] tracking-[-0.4px] text-dark max-[1199px]:text-[32px] max-[809px]:text-[28px]">
-              Built to handle the work you shouldn&apos;t
+              The Next Generation of Domain-focused Agentic AI Solutions
             </h2>
             <p className="mt-4 text-[14px] leading-[1.6] text-gray-text max-w-[560px]">
-              From emails to scheduling, Humigent keeps your workflows moving
-              without interruptions.
+              We combine Agentic AI, technology and deep domain expertise to
+              solve complex business problems that drive smarter and more
+              efficient decision making.
             </p>
           </div>
 
           {/* Content Grid */}
           <div className="grid grid-cols-2 max-[809px]:grid-cols-1 border-t border-gray-border/40">
-            {/* Left: Stats + Testimonial */}
+            {/* Left: Stats + Quote */}
             <div className="border-r border-gray-border/40 max-[809px]:border-r-0 max-[809px]:border-b">
-              {/* IN ACTION stats */}
               <div className="p-10 max-[809px]:p-6 border-b border-gray-border/40">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="w-[10px] h-[10px] bg-primary rounded-sm" />
                   <span className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-text">
-                    In Action
+                    Our Vision
                   </span>
                 </div>
                 <h3 className="font-serif text-[28px] font-normal leading-[1.1] tracking-[-0.28px] text-dark max-[809px]:text-[22px]">
-                  Humigent automates 1,000s of tasks daily, saving teams hours
-                  every week
+                  See What Others Miss. Act Before They Can.
                 </h3>
                 <a
-                  href="#"
+                  href="#demo"
                   className="mt-6 inline-block bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity"
                 >
-                  Request a demo
+                  Request A Demo
                 </a>
               </div>
 
-              {/* Testimonial */}
+              {/* Mission */}
               <div className="p-10 max-[809px]:p-6">
                 <svg
                   width="32"
@@ -62,35 +61,35 @@ export default function InAction() {
                   />
                 </svg>
                 <p className="text-[16px] leading-[1.6] text-dark mb-6">
-                  &ldquo;Humigent streamlined our entire scheduling and
-                  communication flow&mdash;what took hours now happens in
-                  seconds.&rdquo;
+                  &ldquo;Humigent&apos;s multi-agent intelligence detects the
+                  signals buried in complexity&mdash;then tells you exactly what
+                  to do about them.&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
                   <Image
                     src="/images/paul-lohim.png"
-                    alt="Paul Lohim"
+                    alt="Humigent Leadership"
                     width={40}
                     height={40}
                     className="rounded-full object-cover"
                   />
                   <div>
                     <p className="text-[14px] font-medium text-dark">
-                      Paul Lohim
+                      Humigent Team
                     </p>
                     <p className="text-[12px] font-mono tracking-[-0.12px] uppercase text-gray-light">
-                      CEO, Medsync
+                      Applied AI for Real World Applications
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Right: Workflow Image */}
+            {/* Right: Image */}
             <div className="p-10 max-[809px]:p-6 flex items-center justify-center bg-card/30">
               <Image
                 src="/images/in-action-workflow.png"
-                alt="Workflow Automation"
+                alt="Humigent AI Platform"
                 width={595}
                 height={578}
                 className="w-full h-auto"
