@@ -28,22 +28,6 @@ export default function Hero() {
           drivers, and recommends the next best actions.
         </p>
 
-        <div
-          className={`mt-8 flex items-center justify-center gap-4 max-[809px]:flex-col transition-opacity duration-700 delay-500 ${show ? "opacity-100" : "opacity-0"}`}
-        >
-          <a
-            href="#demo"
-            className="bg-primary text-white text-[14px] font-medium px-6 py-3 rounded-[4px] hover:opacity-90 transition-opacity"
-          >
-            Request A Demo
-          </a>
-          <a
-            href="#about"
-            className="bg-white text-dark text-[14px] font-medium px-6 py-3 rounded-[4px] border border-dark/20 hover:border-dark/40 transition-colors"
-          >
-            Learn More
-          </a>
-        </div>
       </div>
     </section>
   );
